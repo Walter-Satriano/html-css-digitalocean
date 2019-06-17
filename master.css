@@ -1,3 +1,16 @@
+/*debug*/
+/* [class*='col-'] {
+  border: 1px solid black;
+} */
+
+/*REGOLE GENERALI*/
+.center-cont {
+  width: 80%;
+  margin: auto;
+}
+
+
+
 /*REGOLE HEADER*/
 header .navbar {
 margin-bottom: 0;
@@ -17,8 +30,13 @@ header .navbar-default .navbar-nav>li>a {
 header .btn.btn-default {
   margin-top: 7px;
   border-color: #0069FF;
-  font-size: 17px;
+  font-size: 16px;
   color: #0069FF;
+}
+
+header hr {
+    margin: 0;
+    border: 1px solid #eee;
 }
 
 header .nav-menu-padding {
@@ -36,9 +54,95 @@ header .nav-menu-padding {
 }
 
 .nav-menu-text {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .padding {
   padding: 30px 0;
+}
+
+/*SEZIONE WELCOME*/
+.welcome-bg {
+  background-color: #0049FF;
+  font-family: verdana;
+  padding: 5% 0;
+}
+
+.welcome-bg h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+
+.welcome-bg p {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 4%;
+}
+
+.deploy-bg {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.deploy-bg .input-group .form-control {
+  height: 55px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.deploy-bg .btn-default {
+  width: 100%;
+  text-align: center;
+  background-color: #15CD72;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: 0;
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.deploy-bg h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #031B4E;
+  padding: 20px 0;
+}
+
+.deploy-bg p {
+  color: #031B4E;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+/*SEZIONE LOGO-LIST*/
+.logo-list-bg {
+  background-color: #F3F5F9;
+  font-family: verdana;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.logo-list-bg img {
+  /* max-width: auto; */
+  height: 95px;
+}
+
+.logo-list-bg h2 {
+  text-transform: uppercase;
+  color: #939EB5;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.logo-list-bg p {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 4%;
+  padding-bottom: 5%;
 }

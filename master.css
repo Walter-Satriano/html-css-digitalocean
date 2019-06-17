@@ -1,0 +1,44 @@
+/*REGOLE HEADER*/
+header .navbar {
+margin-bottom: 0;
+}
+
+header .navbar.navbar-default {
+  background-color: white;
+  border: none;
+  font-family: helvetica;
+}
+
+header .navbar-default .navbar-nav>li>a {
+    color: #031B4E;
+    font-weight: 600;
+}
+
+header .btn.btn-default {
+  margin-top: 7px;
+  border-color: #0069FF;
+  font-size: 17px;
+  color: #0069FF;
+}
+
+header .nav-menu-padding {
+  padding: 25px 0;
+}
+
+#logo {
+  width: 270px;
+  padding-left: 15px;
+  padding-right: 35px;
+}
+
+.nav-top-text {
+  font-size: 14px;
+}
+
+.nav-menu-text {
+  font-size: 17px;
+}
+
+.padding {
+  padding: 30px 0;
+}

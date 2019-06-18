@@ -1,12 +1,13 @@
 /*debug*/
 /* [class*='col-'] {
   border: 1px solid black;
+  height: 200px;
 } */
 
 /*REGOLE GENERALI*/
 .center-cont {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 
@@ -123,11 +124,11 @@ header .nav-menu-padding {
   background-color: #F3F5F9;
   font-family: verdana;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .logo-list-style img {
-  /* max-width: auto; */
   height: 95px;
 }
 
@@ -136,7 +137,6 @@ header .nav-menu-padding {
   color: #939EB5;
   font-size: 20px;
   margin: 0;
-  padding-top: 5%;
   padding-bottom: 5%;
 }
 
@@ -144,8 +144,53 @@ header .nav-menu-padding {
   font-size: 20px;
   margin: 0;
   padding-top: 4%;
+}
+
+/*SEZIONE DEPLOY*/
+.deploy-style {
+  background-color: white;
+  font-family: verdana;
   padding-bottom: 5%;
 }
+
+.deploy-style ul {
+  padding: 20px 10px;
+
+}
+
+.deploy-style li {
+  list-style-type: none;
+  font-family: verdana;
+  padding-bottom: 35px;
+}
+
+.deploy-style a {
+  color: #031B4E;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.deploy-style h3 {
+  color: #031B4E;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.deploy-style p {
+  color: #4B5C81;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 2% 0;
+}
+
+.deploy-style .deploy-subtitle {
+  color: #4B5C81;
+  font-size: 23px;
+  font-weight: 400;
+  padding-bottom: 3%;
+}
+
 
 /*SEZIONE DESIGNED e DEVELOPMENT*/
 .des-e-dev-style {
@@ -155,7 +200,9 @@ header .nav-menu-padding {
   padding-bottom: 5%;
 }
 
-.des-e-dev-style h2, .business-style h2 {
+.des-e-dev-style h2,
+.business-style h2,
+.deploy-style h2 {
   color: #031B4E;
   font-size: 38px;
   font-weight: 600;
@@ -193,7 +240,7 @@ header .nav-menu-padding {
 
 .business-style p {
   color: #4B5C81;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   padding: 2% 0;
 }

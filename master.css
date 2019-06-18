@@ -231,3 +231,27 @@ header .nav-menu-padding {
 .nation {
   color: #d5d5d5;
 }
+
+/* SEZIONE "GET STARTED" */
+.get-style {
+  background-color: #0049FF;
+  font-family: verdana;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.get-style h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.get-style .btn-default {
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0069FF;
+  border: 0;
+  height: 55px;
+}

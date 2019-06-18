@@ -1,16 +1,8 @@
-/*debug*/
-/* [class*='col-'] {
-  border: 1px solid black;
-  height: 200px;
-} */
-
 /*REGOLE GENERALI*/
 .center-cont {
   width: 80%;
   margin: 0 auto;
 }
-
-
 
 /*REGOLE HEADER*/
 header .navbar {
@@ -51,7 +43,7 @@ header .nav-menu-padding {
 }
 
 .nav-top-text {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .nav-menu-text {
@@ -191,7 +183,6 @@ header .nav-menu-padding {
   padding-bottom: 3%;
 }
 
-
 /*SEZIONE DESIGNED e DEVELOPMENT*/
 .des-e-dev-style {
   background-color: #F3F5F9;
@@ -301,4 +292,44 @@ header .nav-menu-padding {
   color: #0069FF;
   border: 0;
   height: 55px;
+}
+
+/*FOOTER*/
+.footer-style {
+  font-family: verdana;
+  background-color: #010E28;
+  padding: 5% 2%;
+}
+
+.footer-style p {
+  font-size: 16px;
+  padding-top: 12px;
+  color: #d5d5d5;
+}
+
+.footer-style h3 {
+  font-size: 20px;
+  padding-top: 12px;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 0;
+  padding: 4% 0 3% 0;
+}
+
+.footer-style ul {
+  padding: 0;
+}
+
+.footer-style li {
+  list-style-type: none;
+  font-family: verdana;
+  line-height: 2;
+}
+
+.footer-style a {
+  color: #d5d5d5;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
 }

@@ -69,13 +69,13 @@ header .nav-menu-padding {
 }
 
 .welcome-style h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 600;
   color: white;
 }
 
 .welcome-style p {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
   color: white;
   padding-bottom: 4%;
@@ -196,4 +196,38 @@ header .nav-menu-padding {
   font-size: 18px;
   font-weight: 400;
   padding: 2% 0;
+}
+
+/*SEZIONE AROUND THE WORLD*/
+.around-style {
+  background-color: #031B4E;
+  font-family: verdana;
+  padding: 5% 0;
+}
+
+.around-style h2 {
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 4%;
+}
+
+.around-style .table>tbody>tr>td {
+  border-top: 0;
+  border-bottom: 1px solid #9AA4B8;
+  font-size: 14px;
+  padding: 15px 12px;
+}
+
+.around-style .table>tbody>tr>td:first-child {
+  color: white;
+  font-weight: 600;
+}
+
+.around-style .table>tbody>tr>td>a {
+  color: #00D7D2;
+}
+
+.nation {
+  color: #d5d5d5;
 }

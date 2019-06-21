@@ -56,7 +56,8 @@ header .nav-menu-padding {
 
 /*SEZIONE WELCOME*/
 .welcome-style {
-  background-color: #0049FF;
+  background-image: url("img/dg-background.jpg");
+  background-size: cover;
   font-family: verdana;
   padding: 5% 0;
 }
@@ -78,6 +79,7 @@ header .nav-menu-padding {
   background-color: white;
   text-align: center;
   border-radius: 10px;
+  padding: 0 20px;
 }
 
 .signup-box .input-group .form-control {
@@ -239,6 +241,8 @@ header .nav-menu-padding {
 /*SEZIONE AROUND THE WORLD*/
 .around-style {
   background-color: #031B4E;
+  background-image: url("img/datacenter2.png");
+  background-size: cover;
   font-family: verdana;
   padding: 5% 0;
 }
@@ -272,7 +276,8 @@ header .nav-menu-padding {
 
 /* SEZIONE "GET STARTED" */
 .get-style {
-  background-color: #0049FF;
+  background-image: url("img/dg-background.jpg");
+  background-size: cover;
   font-family: verdana;
   text-align: center;
   padding: 3% 0;
